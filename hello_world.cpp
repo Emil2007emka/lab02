@@ -2,9 +2,9 @@
 #include <string>
 
 int main() {
-    std::string name;                     // переменная для имени пользователя
-    std::cout << "Enter your name: ";     // запрос имени
-    std::cin >> name;                     // ввод имени
-    std::cout << "Hello world from " << name << std::endl; // приветствие
+    std::string name;                     // user name variable
+    std::cout << "Enter your name: ";     // prompt
+    std::cin >> name;                     // read input
+    std::cout << "Hello world from " << name << std::endl; // output
     return 0;
 }
